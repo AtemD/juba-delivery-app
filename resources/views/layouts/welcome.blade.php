@@ -8,7 +8,7 @@
 <body class="theme-light">
     <div class="page">
         
-        <header class="navbar navbar-expand-md navbar-light sticky-top d-print-none pb-0" style="background-color:gold;">
+        <header class="navbar navbar-expand-md navbar-light {--sticky-top--} d-print-none pb-0" style="background-color:gold;">
             @include('includes.navbar')
         </header>
 

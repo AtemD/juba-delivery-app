@@ -26,23 +26,18 @@
                     <div class="mb-3">
                         <label class="form-label">Mobile Number</label>
                         <div class="input-group">
-                                <div class="col-4">
-                                    <select name="area_code" class="form-select">
-                                        <option value="">Area Code</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="20" selected="">SSD_+211</option>
-                                        <option value="21">21</option>
-                                        <option value="22">22</option>
-                                        <option value="31">31</option>
-                                    </select>
-                                </div>
-                                <div class="col-8">
-                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                                </div>
-
+                            <div class="col-4">
+                                <select name="area_code" class="form-select">
+                                    <option value="">Area Code</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="20" selected="">SSD_+211</option>
+                                    <option value="21">21</option>
+                                </select>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                            </div>
                         </div>
                     </div>
                     <div class="mb-3">
