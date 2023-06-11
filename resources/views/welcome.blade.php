@@ -142,6 +142,7 @@
             </div>
         </div>
         gh-pages branch
+        delete vite.config.js
         <div class="row g-2 g-md-3">
             <div class="col- 12 col-md-4 col-lg-4">
                 <div class="card shadow mb-2">
