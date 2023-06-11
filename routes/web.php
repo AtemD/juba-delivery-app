@@ -13,6 +13,46 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * Youth Empowerment Platform routes 
+ * This code will be moved out of here into a new application upon download of the new app
+ */
+
+Route::get('/yep', function () {
+    return view('youth.welcome');
+});
+
+Route::get('/yep/courses-and-workshops', function () {
+    return view('youth.courses.index');
+})->name('courses.index');
+
+Route::get('/yep/computer-basics', function () {
+    return view('youth.courses.show');
+})->name('courses.show');
+
+Route::get('/yep/sign-in', function () {
+    return view('youth.sign-in');
+})->name('yep.sign-in');
+
+Route::get('/yep/sign-up', function () {
+    return view('youth.sign-up');
+})->name('yep.sign-up');
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Delivery routes
+ * 
+ */
 Route::get('/', function () {
     return view('welcome');
 });
@@ -61,6 +101,10 @@ Route::get('/orders', function () {
 
 Route::get('/tabler', function () {
     return view('others.tabler-full');
+});
+
+Route::get('/orders', function () {
+    return view('businesses.restaurants.orders.index');
 });
 
 
