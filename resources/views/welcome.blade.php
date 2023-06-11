@@ -141,7 +141,7 @@
                 <h1 class="display-5 fw-bold pb-4">Join Us</h1>
             </div>
         </div>
-        demo branch
+        gh-pages branch
         <div class="row g-2 g-md-3">
             <div class="col- 12 col-md-4 col-lg-4">
                 <div class="card shadow mb-2">
